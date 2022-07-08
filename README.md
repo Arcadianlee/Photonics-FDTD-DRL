@@ -5,6 +5,8 @@ Applying deep Q learning (DQN) or Proximal Policy Optimization (PPO) to the opti
 
 For PPO, Ray Rllib was used. For DQN, code was written from scratch.
 
+OpenAI gym is used for building the envs.
+
 Note: you'll need your own .fsp FDTD simulation file in order for this repo to work. 
 
 PS: for a different implementation of PPO written by one of my colleagues, visit: https://github.com/Arcadianlee/Photonics_RL
