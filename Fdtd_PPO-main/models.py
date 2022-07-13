@@ -1,3 +1,4 @@
+#Authors: Ceyao Zhang, Renjie Li, May 2022, CUHKSZ
 import numpy as np
 
 from gym.spaces import Box, Discrete
