@@ -1,3 +1,4 @@
+#Authors: Ceyao Zhang, Renjie Li, May 2022, CUHKSZ
 import gym
 from gym import spaces
 from gym.envs.classic_control.cartpole import CartPoleEnv
