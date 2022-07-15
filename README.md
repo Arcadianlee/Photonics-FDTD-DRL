@@ -40,3 +40,6 @@ Since RL doesn't require any training data, there's no dataset included here.
 
 PS: for a different implementation of PPO written by one of my colleagues, see the FDTD_PPO-main folder, or visit: https://github.com/Arcadianlee/Photonics_RL
 
+
+[detailed implementation procedure of L2DO.pdf](https://github.com/Arcadianlee/Photonics-FDTD-DRL/files/9121046/detailed.implementation.procedure.of.L2DO.pdf)
+
