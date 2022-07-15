@@ -27,17 +27,16 @@ of magnitude higher sample-efficiency without suffering from the three issues
 above. This work marks the first step towards a fully automated AI framework for
 photonics inverse design.
 
-Methods:
-applying deep Q learning (DQN) or Proximal Policy Optimization (PPO) to the inverse design of photonic crystal nanocavities such as the L3 cavity and the nanobeam. 
+Algothims used:<br/>
+Deep Q learning (DQN) and Proximal Policy Optimization (PPO).
 
-For PPO, Ray Rllib was used. For DQN, code was written from scratch.
-
+For PPO, Ray Rllib was used. For DQN, code was written from scratch w/o using Rllib.<br/>
 For both cases, pytorch was used as the ML library and OpenAI gym was used for building the envs.
 
-Here is the step-by-step instruction for how to reproduce the code in this repo:
+Here is the step-by-step instruction for how to reproduce the code in this repo:<br/>
 [detailed implementation procedure of L2DO.pdf](https://github.com/Arcadianlee/Photonics-FDTD-DRL/files/9121046/detailed.implementation.procedure.of.L2DO.pdf)
 
-To run either code in the terminal, simply type: 
+To run either code in the terminal, simply type:<br/>
 python Optim_PhC_DQN.py (or Optim_PhC_PPO.py) | tee run.log
 
 Note: you'll need your own .fsp FDTD simulation file in order for this repo to work. 
