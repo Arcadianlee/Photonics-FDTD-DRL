@@ -39,11 +39,11 @@ Here is the step-by-step instruction for how to reproduce the code in this repo:
 To run either code in the terminal, simply type:<br/>
 python Optim_PhC_DQN.py (or Optim_PhC_PPO.py) | tee run.log
 
-Note: you'll need your own .fsp FDTD simulation file in order for this repo to work. 
+Note: you'll need your own .fsp FDTD simulation file in order for this repo to work. To request simulations files, contact zhangzy@cuhk.edu.cn.
 
-Since RL doesn't require any training data, there's no dataset included here. 
+Finally, since RL doesn't require any training data, there's no dataset used or included here. 
 
-PS: for a different implementation of PPO written by one of my colleagues, see the FDTD_PPO-main folder, or visit: https://github.com/Arcadianlee/Photonics_RL
-
+PS: for a different implementation of PPO written by one of my colleagues, see the FDTD_PPO-main folder, or visit: https://github.com/Arcadianlee/Photonics_RL <br/>
+This other implementation was found to be less efficient than the one in optim_PhC_ppo.py.
 
 
