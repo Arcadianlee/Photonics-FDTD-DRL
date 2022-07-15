@@ -1,5 +1,5 @@
 # Photonics-FDTD-DRL
-Optimization and inverse design of photonic crystals using Deep Reinforcement Learning.
+Optimization and inverse design of nanoscale laser cavities using Deep Reinforcement Learning.
 
 Abstrat:
 Photonics inverse design relies on human experts to search for a design topology
@@ -34,6 +34,8 @@ For PPO, Ray Rllib was used. For DQN, code was written from scratch.
 
 For both algorithms, pytorch was used. OpenAI gym is used for building the envs.
 
+[detailed implementation procedure of L2DO.pdf](https://github.com/Arcadianlee/Photonics-FDTD-DRL/files/9121046/detailed.implementation.procedure.of.L2DO.pdf)
+
 Note: you'll need your own .fsp FDTD simulation file in order for this repo to work. 
 
 Since RL doesn't require any training data, there's no dataset included here. 
@@ -41,5 +43,4 @@ Since RL doesn't require any training data, there's no dataset included here.
 PS: for a different implementation of PPO written by one of my colleagues, see the FDTD_PPO-main folder, or visit: https://github.com/Arcadianlee/Photonics_RL
 
 
-[detailed implementation procedure of L2DO.pdf](https://github.com/Arcadianlee/Photonics-FDTD-DRL/files/9121046/detailed.implementation.procedure.of.L2DO.pdf)
 
