@@ -19,8 +19,8 @@ laser cavities: a long photonic crystal (PC) nanobeam and a PC nanobeam with
 an L3 cavity, both popular candidates for semiconductor lasers such as PCSELs.
 Trained for less than 150 hours on limited hardware resources, L2DO has achieved
 comparable or even better performance than human experts working the same
-task for over a month. L2DO first learned to meet the required maxima of Q-
-factors and then proceeded to optimize some additional good-to-have features (e.g.,
+task for over a month. L2DO first learned to meet the required maxima of 
+Q-factors and then proceeded to optimize some additional good-to-have features (e.g.,
 resonance frequency, modal volume). Compared with iterative human designs and
 inverse design enabled by supervised learning, L2DO can achieve over two orders
 of magnitude higher sample-efficiency without suffering from the three issues
@@ -38,7 +38,7 @@ Here is the step-by-step instruction for how to reproduce the code in this repo:
 [detailed implementation procedure of L2DO.pdf](https://github.com/Arcadianlee/Photonics-FDTD-DRL/files/9121046/detailed.implementation.procedure.of.L2DO.pdf)
 
 To run either code in the terminal, simply type:<br/>
-python optim_PhC_dqn.py (or optim_PhC_ppo.py) | tee run.log
+`python optim_PhC_dqn.py (or optim_PhC_ppo.py) | tee run.log`
 
 Note: you'll need your own .fsp FDTD simulation file in order for this repo to work. To request proprietary simulations files, contact zhangzy@cuhk.edu.cn.
 
