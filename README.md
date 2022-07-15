@@ -1,7 +1,7 @@
 # Photonics-FDTD-DRL
 Optimization and inverse design of nanoscale laser cavities using Deep Reinforcement Learning.
 
-Abstrat:
+## Abstrat:<br/>
 Photonics inverse design relies on human experts to search for a design topology
 that satisfies certain optical specifications with their experience and intuitions,
 which is highly labor-intensive, slow, and sub-optimal. Machine learning has
@@ -27,23 +27,25 @@ of magnitude higher sample-efficiency without suffering from the three issues
 above. This work marks the first step towards a fully automated AI framework for
 photonics inverse design.
 
-Algothims used:<br/>
+## Algothims used:<br/>
 Deep Q learning (DQN) and Proximal Policy Optimization (PPO).
 
 For PPO, Ray Rllib was used. For DQN, code was written from scratch w/o using Rllib.<br/>
 For both cases, pytorch was used as the ML library and OpenAI gym was used for building the envs.
 
+## Implementation details:<br/>
 Here is the step-by-step instruction for how to reproduce the code in this repo:<br/>
 [detailed implementation procedure of L2DO.pdf](https://github.com/Arcadianlee/Photonics-FDTD-DRL/files/9121046/detailed.implementation.procedure.of.L2DO.pdf)
 
 To run either code in the terminal, simply type:<br/>
-python Optim_PhC_DQN.py (or Optim_PhC_PPO.py) | tee run.log
+python optim_PhC_dqn.py (or optim_PhC_ppo.py) | tee run.log
 
-Note: you'll need your own .fsp FDTD simulation file in order for this repo to work. To request simulations files, contact zhangzy@cuhk.edu.cn.
+Note: you'll need your own .fsp FDTD simulation file in order for this repo to work. To request proprietary simulations files, contact zhangzy@cuhk.edu.cn.
 
 Finally, since RL doesn't require any training data, there's no dataset used or included here. 
 
+## Extra info:<br/>
 PS: for a different implementation of PPO written by one of my colleagues, see the FDTD_PPO-main folder, or visit: https://github.com/Arcadianlee/Photonics_RL <br/>
-This other implementation was found to be less efficient than the one in optim_PhC_ppo.py.
+This other implementation was found to be less efficient than the one implemented in optim_PhC_ppo.py.
 
 
