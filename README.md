@@ -27,11 +27,22 @@ of magnitude higher sample-efficiency without suffering from the three issues
 above. This work marks the first step towards a fully automated AI framework for
 photonics inverse design.
 
-## Algothims used:<br/>
+## Algothims and software used:<br/>
 Deep Q learning (DQN) and Proximal Policy Optimization (PPO).
 
 For PPO, Ray Rllib was used. For DQN, code was written from scratch w/o using Rllib.<br/>
-For both cases, pytorch was used as the ML library and OpenAI gym was used for building the envs.
+For both cases, pytorch was used as the ML library and OpenAI gym was used for building the envs.<br/>
+[Lumerical FDTD](https://www.lumerical.com) was used as the environment for simulating nanobeams.
+
+## File structure
+    .
+    ├── ...
+    ├── optim_PhC_dqn.py (or optim_PhC_ppo.py)       # main scripts
+    │   ├── envs                # RL environment scripts
+    │   ├── src                 # source scripts for nanobeams
+    ├── README.md               # Readme file
+    ├── FDTD_PPO-main           # Another implementation of PPO
+    └── ...
 
 ## Implementation details:<br/>
 Here is the step-by-step instruction for how to reproduce the code in this repo:<br/>
