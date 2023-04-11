@@ -1,5 +1,5 @@
 # Photonics-FDTD-DRL
-Optimization and inverse design of nanoscale laser cavities using Deep Reinforcement Learning.
+Optimization and inverse design of nanoscale laser cavities using Deep Reinforcement Learning. Here is link to our paper: https://www.degruyter.com/document/doi/10.1515/nanoph-2022-0692/html
 
 ## Abstrat:<br/>
 Photonics inverse design relies on human experts to search for a design topology
@@ -56,18 +56,19 @@ Note: you'll need your own .fsp FDTD simulation file in order for this repo to w
 Finally, since RL doesn't require any training data, there's no dataset used or included here. 
 
 ## Citation
-If you used our code for your research, please cite the paper as:
-@article{li2023deep2,
-  options={maxbibnames=99},
-  title={Deep reinforcement learning empowers automated inverse design and optimization of photonic crystals for nanoscale laser cavities},
-  author={Li, Renjie and Zhang, Ceyao and Xie, Wentao and Gong, Yuanhao and Ding, Feilong and Dai, Hui and Chen, Zihan and Yin, Feng and Zhang, Zhaoyu},
-  journal={Nanophotonics},
-  volume={12},
-  number={2},
-  pages={319--334},
-  year={2023},
-  publisher={De Gruyter}
-}
+If you used our code for your research, please consider citing the paper as:
+
+    @article{li2023deep2,
+      options={maxbibnames=99},
+      title={Deep reinforcement learning empowers automated inverse design and optimization of photonic crystals for nanoscale laser cavities},
+      author={Li, Renjie and Zhang, Ceyao and Xie, Wentao and Gong, Yuanhao and Ding, Feilong and Dai, Hui and Chen, Zihan and Yin, Feng and Zhang, Zhaoyu},
+      journal={Nanophotonics},
+      volume={12},
+      number={2},
+      pages={319--334},
+      year={2023},
+      publisher={De Gruyter}
+    }
 
 ## Extra info:<br/>
 PS: for a different implementation of PPO written by one of my colleagues, see the FDTD_PPO-main folder, or visit: https://github.com/Arcadianlee/Photonics_RL <br/>
